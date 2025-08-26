@@ -1,0 +1,65 @@
+# Resultados de compilación
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Archivos específicos de usuario
+*.suo
+*.user
+*.sln.docstates
+*.userosscache
+*.userprefs
+
+# Archivos generados automáticamente por Visual Studio
+*.ncb
+*.sdf
+*.cache
+*.dbmdl
+*.opendb
+*.pdb
+*.psess
+*.vsp
+*.vsps
+*.vssscc
+.vs/
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Archivos y carpetas de Rider y JetBrains
+.idea/
+
+# Carpetas de salida de compilación
+bin/
+obj/
+
+# Otros archivos temporales y de respaldo
+*~
+*.bak
+*.tmp
+
+# Carpetas de configuración de VS Code
+.vscode/
+
+# Archivos de configuración específicos de Visual Studio
+*.vsix
+*.vsixmanifest
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Otros archivos temporales y log
+*.log
+
+# SQL Server
+App_Data/*.mdf
+App_Data/*.ldf
