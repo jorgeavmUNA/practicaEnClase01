@@ -93,8 +93,10 @@ int main()
     else if (menuOption == 6)
     {
       deleteMatrix(gradesMatrix, students);
+      delete[] studentAverages;
       students = grades = 0;
       gradesMatrix = createMatrix(&students, &grades);
+      studentAverages = new float[students];
       isAveragesSet = isBestAveragesSet = false;
     }
   }
